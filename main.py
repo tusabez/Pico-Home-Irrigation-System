@@ -68,7 +68,7 @@ try:
         minute_on = int("00", 16)
         hour_off = int("19", 16)
         minute_off = int("00", 16)
-        if (t[2]) == hour_on and (t[1]) == minute_on:
+        if hour_off > (t[2]) >= hour_on and (t[1]) >= minute_on:
             extled(True)
             
         elif (t[2]) == hour_off and (t[1]) == minute_off:
